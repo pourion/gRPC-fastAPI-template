@@ -1,0 +1,15 @@
+https://storage.googleapis.com/jax-releases/cuda12/jaxlib-0.4.13+cuda12.cudnn89-cp310-cp310-manylinux2014_x86_64.whl
+jax[cuda12_local] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+
+grpcio
+grcpio-tools
+
+omegaconf
+torchsummary
+gdown
+Flask
+
+black==23.3.0
+flake8==6.0.0
+isort==5.12.0
+pre-commit==3.3.2
