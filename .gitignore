@@ -1,1 +1,9 @@
 *.pyc
+.env
+.vscode-server
+.gnupg
+.ssh
+.gitconfig
+.notebook
+.hypothesis
+.dotnet

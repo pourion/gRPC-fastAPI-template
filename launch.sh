@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 
-CONT_NAME=${CONT_NAME:=segmentation}
-IMAGE_NAME=${IMAGE_NAME:=docker.io/pourion/grpc}
+CONT_NAME=${CONT_NAME:=api_demo}
+IMAGE_NAME=${IMAGE_NAME:=docker.io/pourion/api_demo}
 REGISTRY_USER=${REGISTRY_USER:='$oauthtoken'}
 REGISTRY=${REGISTRY:=NotSpecified}
 REGISTRY_ACCESS_TOKEN=${REGISTRY_ACCESS_TOKEN:=NotSpecified}

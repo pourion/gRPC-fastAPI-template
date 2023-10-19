@@ -1,3 +1,7 @@
-## gRPC server - client in python with fastAPI
+# Demo of Service/Client API Design
+This project combines gRPC, FastAPI, and React.
 
-Mostly following the Quickstart from https://grpc.io/docs/languages/python/quickstart/.
+## fastAPI with React
+
+## gRPC server - client in python
+    Mostly following the Quickstart from https://grpc.io/docs/languages/python/quickstart/.
