@@ -12,6 +12,7 @@ Flask
 fastapi
 uvicorn[standard]
 redis-om
+requests
 
 black==23.3.0
 flake8==6.0.0
