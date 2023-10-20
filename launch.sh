@@ -11,6 +11,9 @@ DATA_PATH=${DATA_PATH:=/data}
 DATA_MOUNT_PATH=${DATA_MOUNT_PATH:=/data}
 RESULT_MOUNT_PATH=${RESULT_MOUNT_PATH:=/results}
 RESULT_PATH=${RESULT_PATH:=/results/}
+REDIS_CLOUD_URL=${REDIS_CLOUD_URL:=NotSpecified}
+REDIS_PORT=${REDIS_PORT:=NotSpecified}
+REDIS_PASSWORD=${REDIS_PASSWORD:=NotSpecified}
 ###############################################################################
 #
 # if $LOCAL_ENV file exists, source it to specify my environment
@@ -45,6 +48,9 @@ if [ $write_env -eq 1 ]; then
     echo REGISTRY_USER=${REGISTRY_USER} >> $LOCAL_ENV
     echo REGISTRY=${REGISTRY} >> $LOCAL_ENV
     echo REGISTRY_ACCESS_TOKEN=${REGISTRY_ACCESS_TOKEN} >> $LOCAL_ENV
+    echo REDIS_CLOUD_URL=${REDIS_CLOUD_URL} >> $LOCAL_ENV
+    echo REDIS_PORT=${REDIS_PORT} >> $LOCAL_ENV
+    echo REDIS_PASSWORD=${REDIS_PASSWORD} >> $LOCAL_ENV
 fi
 
 
